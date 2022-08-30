@@ -304,6 +304,16 @@ footer p a {
       padding: 2%;
     }
 
+    th{
+      background-color: #000;
+      color: #fff;
+      font-size: 1.15em;
+    }
+
+    tr:nth-child(odd){
+      background-color: #ccc;
+    }
+
 }
 
 /* Media Query for Desktop Viewport */
@@ -387,6 +397,10 @@ footer p a {
         margin: 0 auto;
     }
 
+}
+
+table{
+  width: 100%;
 }
 
 /* Media Query for Print */
